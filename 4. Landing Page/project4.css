@@ -1,0 +1,141 @@
+/* ====================code for glowing starts=================================== */
+@-webkit-keyframes glow {
+from {
+      text-shadow: 0 0 10px #faecff, 0 0 20px #ecbaff, 0 0 30px #, 0 0 40px #b702ff, 0 0 50px #9400ce, 0 0 60px #59007d, 0 0 70px #230031;
+    }
+to {
+      text-shadow: 0 0 20px #230031, 0 0 30px #59007d, 0 0 40px #9400ce, 0 0 50px #b702ff, 0 0 60px #c636ff, 0 0 70px #ecbaff, 0 0 80px #faecff;
+    }
+  }
+.glow{
+    color: #000;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+/* ====================code for glowing ends===================================== */
+
+
+
+
+.line-of-clearity{ border: 1px solid rgb(255, 0, 0); margin: 3px;}  
+body{ border: 0px solid rgb(0, 0, 0); background-color: #000; }
+
+.section1{
+    background-image: url(/img/Sci-Fi-Wallpaper.jpeg);
+    background-size :contain;
+    background-position: center;
+    
+    height: 741px;
+    background-color: rgb(242, 134, 134);
+}
+.introduction{
+    position: absolute;
+    left: 68%;
+    top: 33%;
+    
+    color: #CBEBFF;
+    font-size: 20px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 7px;
+}
+header{
+    text-align: center;
+    background-color: #9c00d9a5;
+}
+.section2{
+    text-align: center;     
+    padding: 100px;
+    font-size: 40px;
+    background-color: #0a000e;
+    color: thistle;
+    margin: 0;
+}
+
+img{
+  max-width: 200px;
+}
+
+
+.cardContainer{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  max-width: auto;
+  margin: 50px auto;
+  padding: 10px;
+  justify-items: auto;
+}
+.card{
+    max-width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px ;
+    margin-left: 70px;
+    text-align: center;
+    background-color: #0a000e;
+    color: thistle;
+    padding: 10px;
+    text-align: justify;
+}
+
+.card h4{
+  text-align: center;
+  margin: 6px 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+}
+.card p{
+  font-size: 12px;
+  margin: 1px;
+  margin-top: 5px;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 3px 20px green;
+    transition: 0.3s ease;
+}
+.cardContainer{
+  margin: 20px;
+}
+
+.section4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+  
+    margin: 90px;
+    text-align: left;
+}
+
+.contactMe, 
+.aboutMe{
+    padding: 30px;
+    color: thistle;
+    text-align :justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    margin :0 10px;
+}
+.contactMe:hover,.aboutMe:hover{
+  border-radius: 100px;
+  transform: scale(1.02);
+  box-shadow: 3px 5px 20px green;
+  transition: 0.7s ease;
+  background-color: #0a000e;
+
+}
+
+footer{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  padding: 20px;
+  background-color: #0a000e;
+  color: thistle;
+  letter-spacing: 1px;
+}
+
+.section3{
+  padding: 50px;
+}
